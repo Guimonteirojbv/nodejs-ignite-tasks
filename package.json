@@ -1,0 +1,13 @@
+{
+  "name": "dasafio1",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "desafio 1 da trilha de node js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Guilherme Monteiro",
+  "license": "ISC"
+}
