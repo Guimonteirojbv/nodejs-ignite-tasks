@@ -2,6 +2,8 @@ import http from "node:http";
 import { routes } from "./routes.js";
 import { json } from "./middlewares/json.js";
 
+const PORT = 3000;
+
 const server = http.createServer(async (req, res) => {
   const { method, url } = req;
 
@@ -15,6 +17,6 @@ const server = http.createServer(async (req, res) => {
   }
 });
 
-server.listen(3000, () => {
-  console.log("Servidor rodando na porta 3333");
+server.listen(PORT, () => {
+  console.log("Servidor rodando na porta " + PORT);
 });
